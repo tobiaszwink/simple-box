@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  background: #50B8A8;
+}
+body {
+  min-width: 1024px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+.container h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+.icons {
+  width: 100%;
+  display: block;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 40px 0;
+}
+.icons .box {
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+}
+.box img {
+  width: 35px;
+  margin-bottom: 15px;
+}
+.box .figcaption h2 {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.box .figcaption p {
+  font-size: 14px;
+  line-height: 1.6em;
+  color: #1D5E54;
+}
